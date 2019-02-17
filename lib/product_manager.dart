@@ -41,7 +41,7 @@ class _ProductManager extends State<ProductManager> {
         margin: EdgeInsets.all(10.0),
         child: ProductsControl(_addProduct),
       ),
-      Products(products: _products, mainTitle: 'FLUTTER'),
+      Expanded(child: Products(products: _products, mainTitle: 'FLUTTER')),
     ]);
   }
 }
