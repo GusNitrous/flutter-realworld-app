@@ -15,7 +15,7 @@ class RealWorldApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('RealWorldApp'),
         ),
-        body: ProductManager('Test product'),
+        body: ProductManager(),
       ),
     );
   }
