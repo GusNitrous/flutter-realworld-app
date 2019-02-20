@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'pages/home.dart';
+import 'pages/auth.dart';
 
 void main() { 
   debugPaintSizeEnabled = false;
@@ -16,7 +16,7 @@ class RealWorldApp extends StatelessWidget {
         primarySwatch: Colors.deepOrange,
         accentColor: Colors.deepPurple
       ),
-      home: HomePage(),
+      home: AuthPage(),
     );
   }
 }
